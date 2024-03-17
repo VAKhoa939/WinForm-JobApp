@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class FLogin : Form
+    public partial class FDangNhap : Form
     {
-        public FLogin()
+        public FDangNhap()
         {
             InitializeComponent();
         }

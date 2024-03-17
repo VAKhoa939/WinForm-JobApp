@@ -1,6 +1,6 @@
 ﻿namespace JobApplication
 {
-    partial class FLogin
+    partial class FDangNhap
     {
         /// <summary>
         /// Required designer variable.
