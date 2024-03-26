@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class UCHeader : UserControl
+    public partial class UCSeekPost : UserControl
     {
-        public UCHeader()
+        public UCSeekPost()
         {
             InitializeComponent();
         }

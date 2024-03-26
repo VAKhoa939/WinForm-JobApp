@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class FDangNhap : Form
+    public partial class UCSearchBar : UserControl
     {
-        public FDangNhap()
+        public UCSearchBar()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class FChiTietCongViec : Form
+    public partial class FPostDetail : Form
     {
-        public FChiTietCongViec()
+        public FPostDetail()
         {
             InitializeComponent();
         }

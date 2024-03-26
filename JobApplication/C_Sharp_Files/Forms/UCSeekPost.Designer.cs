@@ -1,6 +1,6 @@
 ﻿namespace JobApplication
 {
-    partial class UCBaiDang
+    partial class UCSeekPost
     {
         /// <summary> 
         /// Required designer variable.

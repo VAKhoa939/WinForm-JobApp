@@ -1,6 +1,6 @@
 ﻿namespace JobApplication
 {
-    partial class FTinTuyenDung
+    partial class FAllPosts
     {
         /// <summary>
         /// Required designer variable.
@@ -30,8 +30,8 @@
         {
             this.lblSoLuongKQ = new System.Windows.Forms.Label();
             this.flpKetQua = new System.Windows.Forms.FlowLayoutPanel();
-            this.thanhTimKiem1 = new JobApplication.UCThanhTimKiem();
-            this.header1 = new JobApplication.UCHeader();
+            this.thanhTimKiem1 = new JobApplication.UCSearchBar();
+            this.header1 = new JobApplication.UCSeekHeader();
             this.SuspendLayout();
             // 
             // lblSoLuongKQ
@@ -84,8 +84,8 @@
 
         #endregion
 
-        private UCHeader header1;
-        private UCThanhTimKiem thanhTimKiem1;
+        private UCSeekHeader header1;
+        private UCSearchBar thanhTimKiem1;
         private System.Windows.Forms.Label lblSoLuongKQ;
         private System.Windows.Forms.FlowLayoutPanel flpKetQua;
     }

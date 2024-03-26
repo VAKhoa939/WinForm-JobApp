@@ -1,6 +1,6 @@
 ﻿namespace JobApplication
 {
-    partial class UCHeader
+    partial class UCSeekHeader
     {
         /// <summary> 
         /// Required designer variable.

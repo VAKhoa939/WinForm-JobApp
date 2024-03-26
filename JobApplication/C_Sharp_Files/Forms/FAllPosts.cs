@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class FTinTuyenDung : Form
+    public partial class FAllPosts : Form
     {
-        public FTinTuyenDung()
+        public FAllPosts()
         {
             InitializeComponent();
         }
@@ -27,7 +27,7 @@ namespace JobApplication
 
             for (int i = 0; i < 9; i++)
             {
-                UCBaiDang ucBaiDang = new UCBaiDang();
+                UCSeekPost ucBaiDang = new UCSeekPost();
                 ucBaiDang.lblThoiGianDang.Text = "Posted 18 hours ago";
                 ucBaiDang.lklblTenBaiDang.Text = "Software Engineer II (C#, .NET, JavaScript)";
                 ucBaiDang.imgLogo.Image = logo;

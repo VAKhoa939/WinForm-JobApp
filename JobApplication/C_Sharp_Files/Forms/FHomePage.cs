@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class UCThanhTimKiem : UserControl
+    public partial class FHomePage : Form
     {
-        public UCThanhTimKiem()
+        public FHomePage()
         {
             InitializeComponent();
         }

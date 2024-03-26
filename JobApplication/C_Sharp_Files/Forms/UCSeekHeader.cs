@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class UCBaiDang : UserControl
+    public partial class UCSeekHeader : UserControl
     {
-        public UCBaiDang()
+        public UCSeekHeader()
         {
             InitializeComponent();
         }

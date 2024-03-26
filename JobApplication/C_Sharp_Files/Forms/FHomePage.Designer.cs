@@ -1,6 +1,6 @@
 ﻿namespace JobApplication
 {
-    partial class FTrangChu
+    partial class FHomePage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.header1 = new JobApplication.UCHeader();
-            this.thanhTimKiem1 = new JobApplication.UCThanhTimKiem();
+            this.header1 = new JobApplication.UCSeekHeader();
+            this.thanhTimKiem1 = new JobApplication.UCSearchBar();
             this.SuspendLayout();
             // 
             // header1
@@ -61,7 +61,7 @@
 
         #endregion
 
-        private UCHeader header1;
-        private UCThanhTimKiem thanhTimKiem1;
+        private UCSeekHeader header1;
+        private UCSearchBar thanhTimKiem1;
     }
 }

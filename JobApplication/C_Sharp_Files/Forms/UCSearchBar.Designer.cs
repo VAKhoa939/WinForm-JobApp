@@ -1,6 +1,6 @@
 ﻿namespace JobApplication
 {
-    partial class UCThanhTimKiem
+    partial class UCSearchBar
     {
         /// <summary> 
         /// Required designer variable.
