@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
+using System;
 
 namespace JobApplication
 {
@@ -16,17 +9,43 @@ namespace JobApplication
         {
             InitializeComponent();
         }
+
         int intImgNum = 0;
+
         private void tmrChangeImage_Tick(object sender, EventArgs e)
         {
-            pbxCompanyAva.Image = imageListJobImage.Images[intImgNum];
-            if (intImgNum == imageListJobImage.Images.Count -1)
+            int totalImages = imageListJobImage.Images.Count;
+
+            if (totalImages >= 3)
             {
-                intImgNum = 0;
+                pbxCompanyAva.Image = imageListJobImage.Images[intImgNum];
+                pbxCompanyAva2.Image = imageListJobImage.Images[(intImgNum + 1) % totalImages];
+                pbxCompanyAva3.Image = imageListJobImage.Images[(intImgNum + 2) % totalImages];
+
+                intImgNum = (intImgNum + 1) % totalImages;
+            }
+            else if (totalImages == 2)
+            {
+                pbxCompanyAva.Image = imageListJobImage.Images[intImgNum];
+                pbxCompanyAva2.Image = imageListJobImage.Images[(intImgNum + 1) % totalImages];
+                pbxCompanyAva3.Image = null;
+
+                intImgNum = (intImgNum + 1) % totalImages;
+            }
+            else if (totalImages == 1)
+            {
+                pbxCompanyAva.Image = imageListJobImage.Images[intImgNum];
+                pbxCompanyAva2.Image = null;
+                pbxCompanyAva3.Image = null;
+
+                intImgNum = 0; // Reset index as there's only one image
             }
             else
             {
-                intImgNum++;
+                // No images in the list
+                pbxCompanyAva.Image = null;
+                pbxCompanyAva2.Image = null;
+                pbxCompanyAva3.Image = null;
             }
         }
     }
