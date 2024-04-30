@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JobAppModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.ApplyForm' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="ApplyForm">
+          <Property Name="Seekformid" Type="int" />
+          <Property Name="Postformid" Type="int" />
+          <Property Name="Cv" Type="varbinary(max)" />
+          <Property Name="Coverletter" Type="nvarchar" MaxLength="255" />
+          <Property Name="Status" Type="varchar" MaxLength="10" />
+          <Property Name="Timesent" Type="datetime" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.ComEmpCatalog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="ComEmpCatalog">
+          <Property Name="Comname" Type="nvarchar" MaxLength="30" />
+          <Property Name="Empname" Type="nvarchar" MaxLength="10" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.Company' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Company">
+          <Property Name="Name" Type="nvarchar" MaxLength="30" />
+          <Property Name="Logo" Type="varbinary(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.Employer' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Employer">
+          <Property Name="Username" Type="varchar" MaxLength="10" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="Password" Type="varchar" MaxLength="10" />
+          <Property Name="Phonenumber" Type="varchar" MaxLength="20" />
+          <Property Name="Fullname" Type="nvarchar" MaxLength="100" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.EmpPostCatalog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="EmpPostCatalog">
+          <Property Name="Empname" Type="varchar" MaxLength="10" />
+          <Property Name="Postid" Type="int" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.JobSeeker' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="JobSeeker">
+          <Property Name="Username" Type="varchar" MaxLength="10" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="Password" Type="varchar" MaxLength="10" />
+          <Property Name="Phonenumber" Type="varchar" MaxLength="20" />
+          <Property Name="Fullname" Type="nvarchar" MaxLength="100" />
+          <Property Name="Address" Type="nvarchar" MaxLength="100" />
+          <Property Name="Birthdate" Type="datetime" />
+          <Property Name="Portraitimage" Type="varbinary(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.Post' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Post">
+          <Property Name="Id" Type="int" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Salary" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="Others" Type="nvarchar" MaxLength="100" />
+          <Property Name="Timeposted" Type="datetime" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.PostDescCatalog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="PostDescCatalog">
+          <Property Name="Postid" Type="int" />
+          <Property Name="Jobdesc" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.PostFormCatalog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="PostFormCatalog">
+          <Property Name="Postid" Type="int" />
+          <Property Name="Formid" Type="int" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.PostImgCatalog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="PostImgCatalog">
+          <Property Name="Postid" Type="int" />
+          <Property Name="Postimage" Type="varbinary(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.PostTagCatalog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="PostTagCatalog">
+          <Property Name="Postid" Type="int" />
+          <Property Name="Tag" Type="varchar" MaxLength="20" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'JobApp.dbo.SeekFormCatalog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="SeekFormCatalog">
+          <Property Name="Seekname" Type="varchar" MaxLength="10" />
+          <Property Name="Formid" Type="int" />
+        </EntityType>-->
+  <EntityContainer Name="JobAppModelStoreContainer" />
+</Schema>

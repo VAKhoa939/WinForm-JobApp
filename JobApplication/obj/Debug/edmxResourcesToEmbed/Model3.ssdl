@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JobSeekerEntityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'JobSeekerEntity.dbo.JobSeeker' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="JobSeeker">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="PhoneNumber" />
+      <PropertyRef Name="Password" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'JobSeekerEntity.dbo.Posts' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Posts">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Salary" />
+      <PropertyRef Name="Others" />
+      <PropertyRef Name="Timeposted" />
+      <PropertyRef Name="Status" />
+      <PropertyRef Name="EmployerId" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Salary" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Others" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Timeposted" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmployerId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="JobSeekerEntityModelStoreContainer">
+    <EntitySet Name="JobSeeker" EntityType="Self.JobSeeker" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [JobSeeker].[Id] AS [Id], 
+    [JobSeeker].[Name] AS [Name], 
+    [JobSeeker].[Email] AS [Email], 
+    [JobSeeker].[PhoneNumber] AS [PhoneNumber], 
+    [JobSeeker].[Password] AS [Password]
+    FROM [dbo].[JobSeeker] AS [JobSeeker]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Posts" EntityType="Self.Posts" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Posts].[Id] AS [Id], 
+    [Posts].[Name] AS [Name], 
+    [Posts].[Salary] AS [Salary], 
+    [Posts].[Others] AS [Others], 
+    [Posts].[Timeposted] AS [Timeposted], 
+    [Posts].[Status] AS [Status], 
+    [Posts].[EmployerId] AS [EmployerId]
+    FROM [dbo].[Posts] AS [Posts]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

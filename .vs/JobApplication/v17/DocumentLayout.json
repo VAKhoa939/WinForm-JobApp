@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|d:\\\u0111\u1EA1i h\u1ECDc stuff\\winformjobapp-16-4update\\winform-jobapp\\jobapplication\\c_sharp_files\\forms\\fapplyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\forms\\fapplyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\jobapplication\\c_sharp_files\\forms\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\forms\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|d:\\\u0111\u1EA1i h\u1ECDc stuff\\winformjobapp-16-4update\\winform-jobapp\\jobapplication\\c_sharp_files\\forms\\ucseekheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\forms\\ucseekheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|d:\\\u0111\u1EA1i h\u1ECDc stuff\\winformjobapp-16-4update\\winform-jobapp\\jobapplication\\c_sharp_files\\forms\\fapplyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\forms\\fapplyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|d:\\\u0111\u1EA1i h\u1ECDc stuff\\winformjobapp-16-4update\\winform-jobapp\\jobapplication\\c_sharp_files\\forms\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\forms\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|d:\\\u0111\u1EA1i h\u1ECDc stuff\\winformjobapp-16-4update\\winform-jobapp\\jobapplication\\c_sharp_files\\forms\\fapplyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\forms\\fapplyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|d:\\\u0111\u1EA1i h\u1ECDc stuff\\winformjobapp-16-4update\\winform-jobapp\\jobapplication\\c_sharp_files\\classes\\applyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\classes\\applyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\jobapplication\\c_sharp_files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861583B-BF78-442C-82BB-3709F330F9C9}|JobApplication\\JobApplication.csproj|solutionrelative:jobapplication\\c_sharp_files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FApplyForm.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs [Design]",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:10:41.435Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FLogin.cs [Design]",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs [Design]",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:21:28.578Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FApplyForm.Designer.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.Designer.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.Designer.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.Designer.cs",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.Designer.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAUwGoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:03:41.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCSeekHeader.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\UCSeekHeader.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Forms\\UCSeekHeader.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\UCSeekHeader.cs",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Forms\\UCSeekHeader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:29:18.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FLogin.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Forms\\FLogin.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAUwGAAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:21:13.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplyForm.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Classes\\ApplyForm.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Classes\\ApplyForm.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Classes\\ApplyForm.cs",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Classes\\ApplyForm.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowBoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:11:39.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FApplyForm.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Forms\\FApplyForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:10:35.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Program.cs",
+              "RelativeDocumentMoniker": "JobApplication\\C_Sharp_Files\\Program.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc stuff\\WinformJobApp-16-4Update\\WinForm-JobApp\\JobApplication\\C_Sharp_Files\\Program.cs",
+              "RelativeToolTip": "JobApplication\\C_Sharp_Files\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:11:30.744Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
