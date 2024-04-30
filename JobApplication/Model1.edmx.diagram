@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="475c87253e5b45d996bdbd6f388e9456" Name="Diagram1" ZoomLevel="112" >
+        <EntityTypeShape EntityType="JobAppDFModel.Post" Width="1.5" PointX="6.875" PointY="2.875" />
+        <EntityTypeShape EntityType="JobAppDFModel.ApplyForm" Width="1.5" PointX="4.625" PointY="3.125" />
+        <AssociationConnector Association="JobAppDFModel.PostApplyForm" />
+        <EntityTypeShape EntityType="JobAppDFModel.Company" Width="1.5" PointX="6.625" PointY="0.625" />
+        <EntityTypeShape EntityType="JobAppDFModel.User" Width="1.5" PointX="2.125" PointY="0.625" />
+        <EntityTypeShape EntityType="JobAppDFModel.Employer" Width="1.5" PointX="4.375" PointY="0.625" />
+        <InheritanceConnector EntityType="JobAppDFModel.Employer" />
+        <EntityTypeShape EntityType="JobAppDFModel.JobSeeker" Width="1.5" PointX="2.125" PointY="3.75" />
+        <InheritanceConnector EntityType="JobAppDFModel.JobSeeker" />
+        <AssociationConnector Association="JobAppDFModel.JobSeekerApplyForm" />
+        <AssociationConnector Association="JobAppDFModel.CompanyEmployer" />
+        <AssociationConnector Association="JobAppDFModel.EmployerPost" />
+        <EntityTypeShape EntityType="JobAppDFModel.PostDescCatalog" Width="1.5" PointX="9.5" PointY="2.5" />
+        <EntityTypeShape EntityType="JobAppDFModel.PostImageCatalog" Width="1.5" PointX="9.5" PointY="4.375" />
+        <AssociationConnector Association="JobAppDFModel.PostImage" />
+        <AssociationConnector Association="JobAppDFModel.PostDesc" />
+        <EntityTypeShape EntityType="JobAppDFModel.PostTagCatalog" Width="1.5" PointX="9.5" PointY="0.625" />
+        <AssociationConnector Association="JobAppDFModel.PostTag" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

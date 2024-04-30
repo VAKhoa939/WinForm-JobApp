@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JobAppDFModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="JobAppDFModelStoreContainer">
+    <EntitySet Name="Posts" EntityType="JobAppDFModel.Store.Posts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ApplyForms" EntityType="JobAppDFModel.Store.ApplyForms" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Companies" EntityType="JobAppDFModel.Store.Companies" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="JobAppDFModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PostDescCatalogs" EntityType="JobAppDFModel.Store.PostDescCatalogs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PostImageCatalogs" EntityType="JobAppDFModel.Store.PostImageCatalogs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PostTagCatalogs" EntityType="JobAppDFModel.Store.PostTagCatalogs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users_JobSeeker" EntityType="JobAppDFModel.Store.Users_JobSeeker" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users_Employer" EntityType="JobAppDFModel.Store.Users_Employer" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="PostApplyForm" Association="JobAppDFModel.Store.PostApplyForm">
+      <End Role="Post" EntitySet="Posts" />
+      <End Role="ApplyForm" EntitySet="ApplyForms" />
+    </AssociationSet>
+    <AssociationSet Name="JobSeekerApplyForm" Association="JobAppDFModel.Store.JobSeekerApplyForm">
+      <End Role="JobSeeker" EntitySet="Users_JobSeeker" />
+      <End Role="ApplyForm" EntitySet="ApplyForms" />
+    </AssociationSet>
+    <AssociationSet Name="CompanyEmployer" Association="JobAppDFModel.Store.CompanyEmployer">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Employer" EntitySet="Users_Employer" />
+    </AssociationSet>
+    <AssociationSet Name="EmployerPost" Association="JobAppDFModel.Store.EmployerPost">
+      <End Role="Employer" EntitySet="Users_Employer" />
+      <End Role="Post" EntitySet="Posts" />
+    </AssociationSet>
+    <AssociationSet Name="PostImage" Association="JobAppDFModel.Store.PostImage">
+      <End Role="Post" EntitySet="Posts" />
+      <End Role="PostImageCatalog" EntitySet="PostImageCatalogs" />
+    </AssociationSet>
+    <AssociationSet Name="PostDesc" Association="JobAppDFModel.Store.PostDesc">
+      <End Role="Post" EntitySet="Posts" />
+      <End Role="PostDescCatalog" EntitySet="PostDescCatalogs" />
+    </AssociationSet>
+    <AssociationSet Name="PostTag" Association="JobAppDFModel.Store.PostTag">
+      <End Role="Post" EntitySet="Posts" />
+      <End Role="PostTagCatalog" EntitySet="PostTagCatalogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JobSeeker_inherits_User" Association="JobAppDFModel.Store.FK_JobSeeker_inherits_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="JobSeeker" EntitySet="Users_JobSeeker" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employer_inherits_User" Association="JobAppDFModel.Store.FK_Employer_inherits_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Employer" EntitySet="Users_Employer" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Posts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Salary" Type="decimal" Nullable="false" />
+    <Property Name="Others" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Timeposted" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EmployerId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ApplyForms">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CVcontent" Type="tinyint" Nullable="false" />
+    <Property Name="CVname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Coverletter" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Timesent" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PostId" Type="int" Nullable="false" />
+    <Property Name="JobSeekerId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Companies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Logo" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Phonenumber" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Fullname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Portraitimage" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PostDescCatalogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="JobDesc" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PostId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PostImageCatalogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PostId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PostTagCatalogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tag" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PostId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users_JobSeeker">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Birthdate" Type="datetime" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users_Employer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CompanyId" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PostApplyForm">
+    <End Role="Post" Type="JobAppDFModel.Store.Posts" Multiplicity="1" />
+    <End Role="ApplyForm" Type="JobAppDFModel.Store.ApplyForms" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ApplyForm">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="JobSeekerApplyForm">
+    <End Role="JobSeeker" Type="JobAppDFModel.Store.Users_JobSeeker" Multiplicity="1" />
+    <End Role="ApplyForm" Type="JobAppDFModel.Store.ApplyForms" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeeker">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ApplyForm">
+        <PropertyRef Name="JobSeekerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CompanyEmployer">
+    <End Role="Company" Type="JobAppDFModel.Store.Companies" Multiplicity="1" />
+    <End Role="Employer" Type="JobAppDFModel.Store.Users_Employer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employer">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EmployerPost">
+    <End Role="Employer" Type="JobAppDFModel.Store.Users_Employer" Multiplicity="1" />
+    <End Role="Post" Type="JobAppDFModel.Store.Posts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="EmployerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PostImage">
+    <End Role="Post" Type="JobAppDFModel.Store.Posts" Multiplicity="1" />
+    <End Role="PostImageCatalog" Type="JobAppDFModel.Store.PostImageCatalogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PostImageCatalog">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PostDesc">
+    <End Role="Post" Type="JobAppDFModel.Store.Posts" Multiplicity="1" />
+    <End Role="PostDescCatalog" Type="JobAppDFModel.Store.PostDescCatalogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PostDescCatalog">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PostTag">
+    <End Role="Post" Type="JobAppDFModel.Store.Posts" Multiplicity="1" />
+    <End Role="PostTagCatalog" Type="JobAppDFModel.Store.PostTagCatalogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Post">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PostTagCatalog">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JobSeeker_inherits_User">
+    <End Role="User" Type="JobAppDFModel.Store.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="JobSeeker" Type="JobAppDFModel.Store.Users_JobSeeker" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="JobSeeker">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employer_inherits_User">
+    <End Role="User" Type="JobAppDFModel.Store.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Employer" Type="JobAppDFModel.Store.Users_Employer" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employer">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

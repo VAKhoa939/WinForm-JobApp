@@ -1,0 +1,96 @@
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\bin\Debug\JobApplication.exe.config
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\bin\Debug\JobApplication.exe
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\bin\Debug\JobApplication.pdb
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\bin\Debug\System.Data.SqlClient.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\bin\Debug\System.Data.SqlClient.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.csproj.AssemblyReference.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.Login.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.Header.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.Properties.Resources.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.csproj.GenerateResource.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.csproj.CoreCompileInputs.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.csproj.CopyComplete
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.exe
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.pdb
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.TinTuyenDung.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.TrangChu.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.ChiTietViecLam.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.UVChiTietVietLam.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.CTChiTietViecLam.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.NopHoSo.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.ThongTinTaiKhoan.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.UVThongTinTaiKhoan.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\JobApplication\JobApplication\obj\Debug\JobApplication.CTThongTinTaiKhoan.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\bin\Debug\JobApplication.exe.config
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\bin\Debug\JobApplication.exe
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\bin\Debug\JobApplication.pdb
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.Login.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.Header.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.NopHoSo.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.Properties.Resources.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.ThongTinTaiKhoan.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.TinTuyenDung.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.TrangChu.resources
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.csproj.GenerateResource.cache
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.csproj.CopyComplete
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.exe
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.pdb
+C:\Users\Admin\Dropbox\PC\Downloads\WinForm_JobApplication-master\JobApplication\obj\Debug\JobApplication.ChiTietCongViec.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\bin\Debug\JobApplication.exe.config
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\bin\Debug\JobApplication.exe
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\bin\Debug\JobApplication.pdb
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.csproj.AssemblyReference.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.ChiTietCongViec.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.Login.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.NopHoSo.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.Properties.Resources.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.ThongTinTaiKhoan.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.TinTuyenDung.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.TrangChu.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.csproj.GenerateResource.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.csproj.CoreCompileInputs.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.csproj.CopyComplete
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.exe
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.pdb
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.UCBaiDang.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.UCHeader.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\WF-JobApp\JobApplication\obj\Debug\JobApplication.UCThanhTimKiem.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.exe.config
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.exe
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.pdb
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.AssemblyReference.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FLogin.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.Properties.Resources.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.GenerateResource.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.CoreCompileInputs.cache
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.CopyComplete
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.exe
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.pdb
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FAllPosts.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FCreatePost.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FFormManagement.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FHomePage.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FMyPosts.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FPostDetail.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCApplyForm.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCEmpHeader.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCEmpPost.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSearchBar.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSeekHeader.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSeekPost.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FLogin.aa.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\bin\Debug\aa\JobApplication.resources.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\obj\Debug\aa\JobApplication.resources.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\EntityFramework.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\EntityFramework.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\obj\Debug\JobApplication.FApplyForm.resources
