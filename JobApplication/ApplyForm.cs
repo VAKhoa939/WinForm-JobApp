@@ -15,13 +15,14 @@ namespace JobApplication
     public partial class ApplyForm
     {
         public int Id { get; set; }
-        public byte CVcontent { get; set; }
+        public string CVcontent { get; set; }
         public string CVname { get; set; }
         public string Coverletter { get; set; }
         public System.DateTime Timesent { get; set; }
         public string Status { get; set; }
         public int PostId { get; set; }
         public int JobSeekerId { get; set; }
+        public string JobSeekerName { get; set; }
     
         public virtual Post Post { get; set; }
         public virtual JobSeeker JobSeeker { get; set; }

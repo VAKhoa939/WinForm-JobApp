@@ -69,13 +69,14 @@
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="CVcontent" Type="tinyint" Nullable="false" />
+    <Property Name="CVcontent" Type="nvarchar(max)" Nullable="false" />
     <Property Name="CVname" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Coverletter" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Timesent" Type="datetime" Nullable="false" />
     <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
     <Property Name="PostId" Type="int" Nullable="false" />
     <Property Name="JobSeekerId" Type="int" Nullable="false" />
+    <Property Name="JobSeekerName" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="Companies">
     <Key>
@@ -311,7 +312,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="CVcontent" Type="Byte" Nullable="false" />
+          <Property Name="CVcontent" Type="String" Nullable="false" />
           <Property Name="CVname" Type="String" Nullable="false" />
           <Property Name="Coverletter" Type="String" Nullable="false" />
           <Property Name="Timesent" Type="DateTime" Nullable="false" />
@@ -320,6 +321,7 @@
           <Property Name="PostId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="JobSeeker" Relationship="JobAppDFModel.JobSeekerApplyForm" FromRole="ApplyForm" ToRole="JobSeeker" />
           <Property Name="JobSeekerId" Type="Int32" Nullable="false" />
+          <Property Name="JobSeekerName" Type="String" Nullable="false" />
         </EntityType>
         <Association Name="PostApplyForm">
           <End Type="JobAppDFModel.Post" Role="Post" Multiplicity="1" />
@@ -493,6 +495,7 @@
           <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="PostId" ColumnName="PostId" />
           <ScalarProperty Name="JobSeekerId" ColumnName="JobSeekerId" />
+          <ScalarProperty Name="JobSeekerName" ColumnName="JobSeekerName" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

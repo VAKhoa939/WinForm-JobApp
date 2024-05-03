@@ -25,6 +25,7 @@
           <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="PostId" ColumnName="PostId" />
           <ScalarProperty Name="JobSeekerId" ColumnName="JobSeekerId" />
+          <ScalarProperty Name="JobSeekerName" ColumnName="JobSeekerName" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace JobApplication
 {
@@ -24,6 +25,17 @@ namespace JobApplication
             jobSeekerToUpdate.Address = jobSeeker.Address;
             jobSeekerToUpdate.Birthdate = jobSeeker.Birthdate;
             db.SaveChanges();
+        }
+        public bool ApplyingChecked(JobSeeker jobSeeker, Post post)
+        {
+            foreach (var applyForm in post.ApplyForms)
+            {
+                if (applyForm.JobSeekerId == jobSeeker.Id)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

@@ -8,6 +8,7 @@ namespace JobApplication
     {
         private Post post;
         private JobSeeker user;
+        private JobSeekerDAO seekerDAO = new JobSeekerDAO();
 
         public FPostDetail(Post post, JobSeeker user)
         {
@@ -80,8 +81,14 @@ namespace JobApplication
 
         private void btn_apply_Click(object sender, EventArgs e)
         {
-            Hide();
-            FApplyForm fApplyForm = new FApplyForm(user);
+            if(seekerDAO.ApplyingChecked(user, post))
+            {
+                MessageBox.Show("Already applied to this job before!");
+                return;
+            }
+            
+            Close();
+            FApplyForm fApplyForm = new FApplyForm(user, post);
             fApplyForm.Show();
         }
     }

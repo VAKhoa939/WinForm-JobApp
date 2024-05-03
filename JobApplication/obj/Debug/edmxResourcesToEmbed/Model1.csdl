@@ -59,7 +59,7 @@
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="CVcontent" Type="Byte" Nullable="false" />
+    <Property Name="CVcontent" Type="String" Nullable="false" />
     <Property Name="CVname" Type="String" Nullable="false" />
     <Property Name="Coverletter" Type="String" Nullable="false" />
     <Property Name="Timesent" Type="DateTime" Nullable="false" />
@@ -68,6 +68,7 @@
     <Property Name="PostId" Type="Int32" Nullable="false" />
     <NavigationProperty Name="JobSeeker" Relationship="JobAppDFModel.JobSeekerApplyForm" FromRole="ApplyForm" ToRole="JobSeeker" />
     <Property Name="JobSeekerId" Type="Int32" Nullable="false" />
+    <Property Name="JobSeekerName" Type="String" Nullable="false" />
   </EntityType>
   <Association Name="PostApplyForm">
     <End Type="JobAppDFModel.Post" Role="Post" Multiplicity="1" />

@@ -94,3 +94,43 @@ D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-Jo
 D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\EntityFramework.xml
 D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\EntityFramework.SqlServer.xml
 D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\obj\Debug\JobApplication.FApplyForm.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.exe.config
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.exe
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.pdb
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\aa\JobApplication.resources.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.xml
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.xml
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.AssemblyReference.cache
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FAllPosts.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FCreatePost.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FFormManagement.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FHomePage.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FLogin.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FMyPosts.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FPostDetail.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCApplyForm.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCEmpHeader.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCEmpPost.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSearchBar.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSeekHeader.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSeekPost.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FApplyForm.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.Properties.Resources.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FLogin.aa.resources
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.GenerateResource.cache
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.CoreCompileInputs.cache
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\aa\JobApplication.resources.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobAppli.C07B1578.Up2Date
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.exe
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.pdb
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.Pdf.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Asp.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Forms.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Microsoft.mshtml.dll
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.Pdf.xml
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Asp.xml
+D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Forms.xml

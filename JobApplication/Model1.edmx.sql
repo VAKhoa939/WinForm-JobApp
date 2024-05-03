@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 04/30/2024 16:26:06
--- Generated from EDMX file: D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\WinForm-JobApp\JobApplication\Model1.edmx
+-- Date Created: 05/03/2024 23:23:31
+-- Generated from EDMX file: D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\Model1.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -96,13 +96,14 @@ GO
 -- Creating table 'ApplyForms'
 CREATE TABLE [dbo].[ApplyForms] (
     [Id] int IDENTITY(1,1) NOT NULL,
-    [CVcontent] tinyint  NOT NULL,
+    [CVcontent] nvarchar(max)  NOT NULL,
     [CVname] nvarchar(max)  NOT NULL,
     [Coverletter] nvarchar(max)  NOT NULL,
     [Timesent] datetime  NOT NULL,
     [Status] nvarchar(max)  NOT NULL,
     [PostId] int  NOT NULL,
-    [JobSeekerId] int  NOT NULL
+    [JobSeekerId] int  NOT NULL,
+    [JobSeekerName] nvarchar(max)  NOT NULL
 );
 GO
 
