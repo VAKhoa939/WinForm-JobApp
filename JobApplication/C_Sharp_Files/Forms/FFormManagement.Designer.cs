@@ -45,24 +45,25 @@
             this.lblPostSalary = new System.Windows.Forms.Label();
             this.lblCompanyname = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.flpCV = new System.Windows.Forms.FlowLayoutPanel();
             this.ucApplyForm1 = new JobApplication.UCApplyForm();
             this.ucEmpHeader1 = new JobApplication.UCEmpHeader();
+            this.lblCVCount = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.flpCV.SuspendLayout();
             this.SuspendLayout();
             // 
             // flpJobDesc
             // 
             this.flpJobDesc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flpJobDesc.Location = new System.Drawing.Point(34, 489);
-            this.flpJobDesc.Margin = new System.Windows.Forms.Padding(2);
+            this.flpJobDesc.Location = new System.Drawing.Point(45, 602);
+            this.flpJobDesc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flpJobDesc.Name = "flpJobDesc";
-            this.flpJobDesc.Size = new System.Drawing.Size(698, 229);
+            this.flpJobDesc.Size = new System.Drawing.Size(931, 282);
             this.flpJobDesc.TabIndex = 18;
             // 
             // imageListJobImage2
@@ -91,10 +92,9 @@
             // 
             this.lblPostTime.AutoSize = true;
             this.lblPostTime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostTime.Location = new System.Drawing.Point(3, 154);
-            this.lblPostTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPostTime.Location = new System.Drawing.Point(4, 190);
             this.lblPostTime.Name = "lblPostTime";
-            this.lblPostTime.Size = new System.Drawing.Size(126, 19);
+            this.lblPostTime.Size = new System.Drawing.Size(159, 22);
             this.lblPostTime.TabIndex = 5;
             this.lblPostTime.Text = "Posted 8 hours ago";
             // 
@@ -102,29 +102,28 @@
             // 
             this.lblPostOther.AutoSize = true;
             this.lblPostOther.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostOther.Location = new System.Drawing.Point(3, 101);
-            this.lblPostOther.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPostOther.Location = new System.Drawing.Point(4, 124);
             this.lblPostOther.Name = "lblPostOther";
-            this.lblPostOther.Size = new System.Drawing.Size(587, 38);
+            this.lblPostOther.Size = new System.Drawing.Size(760, 44);
             this.lblPostOther.TabIndex = 3;
             this.lblPostOther.Text = "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho " +
     "Chi Minh\r\nHybrid\r\n";
             // 
             // pbxCompanyAva3
             // 
-            this.pbxCompanyAva3.Location = new System.Drawing.Point(465, 2);
-            this.pbxCompanyAva3.Margin = new System.Windows.Forms.Padding(2);
+            this.pbxCompanyAva3.Location = new System.Drawing.Point(620, 2);
+            this.pbxCompanyAva3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxCompanyAva3.Name = "pbxCompanyAva3";
-            this.pbxCompanyAva3.Size = new System.Drawing.Size(225, 81);
+            this.pbxCompanyAva3.Size = new System.Drawing.Size(300, 100);
             this.pbxCompanyAva3.TabIndex = 2;
             this.pbxCompanyAva3.TabStop = false;
             // 
             // pbxCompanyAva2
             // 
-            this.pbxCompanyAva2.Location = new System.Drawing.Point(236, 2);
-            this.pbxCompanyAva2.Margin = new System.Windows.Forms.Padding(2);
+            this.pbxCompanyAva2.Location = new System.Drawing.Point(315, 2);
+            this.pbxCompanyAva2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxCompanyAva2.Name = "pbxCompanyAva2";
-            this.pbxCompanyAva2.Size = new System.Drawing.Size(225, 81);
+            this.pbxCompanyAva2.Size = new System.Drawing.Size(300, 100);
             this.pbxCompanyAva2.TabIndex = 1;
             this.pbxCompanyAva2.TabStop = false;
             // 
@@ -135,19 +134,19 @@
             this.panel3.Controls.Add(this.pbxCompanyAva3);
             this.panel3.Controls.Add(this.pbxCompanyAva2);
             this.panel3.Controls.Add(this.pbxCompanyAva);
-            this.panel3.Location = new System.Drawing.Point(34, 288);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(45, 354);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(695, 180);
+            this.panel3.Size = new System.Drawing.Size(927, 222);
             this.panel3.TabIndex = 14;
             // 
             // pbxCompanyAva
             // 
             this.pbxCompanyAva.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbxCompanyAva.InitialImage")));
-            this.pbxCompanyAva.Location = new System.Drawing.Point(6, 2);
-            this.pbxCompanyAva.Margin = new System.Windows.Forms.Padding(2);
+            this.pbxCompanyAva.Location = new System.Drawing.Point(8, 2);
+            this.pbxCompanyAva.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbxCompanyAva.Name = "pbxCompanyAva";
-            this.pbxCompanyAva.Size = new System.Drawing.Size(225, 81);
+            this.pbxCompanyAva.Size = new System.Drawing.Size(300, 100);
             this.pbxCompanyAva.TabIndex = 0;
             this.pbxCompanyAva.TabStop = false;
             // 
@@ -156,20 +155,19 @@
             this.panel1.Controls.Add(this.lblPostName);
             this.panel1.Controls.Add(this.lblPostSalary);
             this.panel1.Controls.Add(this.lblCompanyname);
-            this.panel1.Location = new System.Drawing.Point(34, 144);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(45, 177);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(698, 140);
+            this.panel1.Size = new System.Drawing.Size(931, 172);
             this.panel1.TabIndex = 13;
             // 
             // lblPostName
             // 
             this.lblPostName.AutoSize = true;
             this.lblPostName.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostName.Location = new System.Drawing.Point(2, 0);
-            this.lblPostName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPostName.Location = new System.Drawing.Point(3, 0);
             this.lblPostName.Name = "lblPostName";
-            this.lblPostName.Size = new System.Drawing.Size(400, 21);
+            this.lblPostName.Size = new System.Drawing.Size(494, 26);
             this.lblPostName.TabIndex = 1;
             this.lblPostName.Text = "Senior Golang Developer (Backend, AWS, MySQL)";
             // 
@@ -177,10 +175,9 @@
             // 
             this.lblPostSalary.AutoSize = true;
             this.lblPostSalary.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostSalary.Location = new System.Drawing.Point(2, 60);
-            this.lblPostSalary.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPostSalary.Location = new System.Drawing.Point(3, 74);
             this.lblPostSalary.Name = "lblPostSalary";
-            this.lblPostSalary.Size = new System.Drawing.Size(99, 20);
+            this.lblPostSalary.Size = new System.Drawing.Size(125, 25);
             this.lblPostSalary.TabIndex = 3;
             this.lblPostSalary.Text = "$ Negotiable";
             // 
@@ -188,10 +185,9 @@
             // 
             this.lblCompanyname.AutoSize = true;
             this.lblCompanyname.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCompanyname.Location = new System.Drawing.Point(2, 28);
-            this.lblCompanyname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCompanyname.Location = new System.Drawing.Point(3, 34);
             this.lblCompanyname.Name = "lblCompanyname";
-            this.lblCompanyname.Size = new System.Drawing.Size(215, 20);
+            this.lblCompanyname.Size = new System.Drawing.Size(264, 25);
             this.lblCompanyname.TabIndex = 2;
             this.lblCompanyname.Text = "ANDPAD VietNam Co., Ltd";
             // 
@@ -199,29 +195,28 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(898, 144);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(1197, 177);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(265, 25);
+            this.label7.Size = new System.Drawing.Size(335, 32);
             this.label7.TabIndex = 20;
             this.label7.Text = "List of appliers for the job:";
             // 
-            // panel2
+            // flpCV
             // 
-            this.panel2.Controls.Add(this.ucApplyForm1);
-            this.panel2.Location = new System.Drawing.Point(902, 202);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(515, 516);
-            this.panel2.TabIndex = 27;
+            this.flpCV.AutoScroll = true;
+            this.flpCV.Controls.Add(this.ucApplyForm1);
+            this.flpCV.Location = new System.Drawing.Point(1203, 251);
+            this.flpCV.Name = "flpCV";
+            this.flpCV.Size = new System.Drawing.Size(687, 635);
+            this.flpCV.TabIndex = 29;
+            this.flpCV.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.flpCV_ControlRemoved);
             // 
             // ucApplyForm1
             // 
             this.ucApplyForm1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ucApplyForm1.Location = new System.Drawing.Point(2, 2);
-            this.ucApplyForm1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ucApplyForm1.Location = new System.Drawing.Point(3, 3);
             this.ucApplyForm1.Name = "ucApplyForm1";
-            this.ucApplyForm1.Size = new System.Drawing.Size(392, 326);
+            this.ucApplyForm1.Size = new System.Drawing.Size(522, 401);
             this.ucApplyForm1.TabIndex = 0;
             // 
             // ucEmpHeader1
@@ -229,27 +224,38 @@
             this.ucEmpHeader1.BackColor = System.Drawing.Color.Coral;
             this.ucEmpHeader1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ucEmpHeader1.Location = new System.Drawing.Point(0, 0);
-            this.ucEmpHeader1.Margin = new System.Windows.Forms.Padding(2);
+            this.ucEmpHeader1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ucEmpHeader1.Name = "ucEmpHeader1";
-            this.ucEmpHeader1.Size = new System.Drawing.Size(1620, 98);
+            this.ucEmpHeader1.Size = new System.Drawing.Size(2160, 121);
             this.ucEmpHeader1.TabIndex = 28;
+            // 
+            // lblCVCount
+            // 
+            this.lblCVCount.AutoSize = true;
+            this.lblCVCount.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCVCount.Location = new System.Drawing.Point(1194, 209);
+            this.lblCVCount.Name = "lblCVCount";
+            this.lblCVCount.Size = new System.Drawing.Size(534, 33);
+            this.lblCVCount.TabIndex = 30;
+            this.lblCVCount.Text = "There are 1000000000000 apply forms waiting";
             // 
             // FFormManagement
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1604, 881);
+            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.Controls.Add(this.lblCVCount);
+            this.Controls.Add(this.flpCV);
             this.Controls.Add(this.ucEmpHeader1);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.flpJobDesc);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FFormManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FPostDetailE";
+            this.Text = "FFormManagement";
             this.Load += new System.EventHandler(this.FFormManagement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva2)).EndInit();
@@ -258,7 +264,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
+            this.flpCV.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,8 +287,9 @@
         private System.Windows.Forms.Label lblPostSalary;
         private System.Windows.Forms.Label lblCompanyname;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel panel2;
-        private UCApplyForm ucApplyForm1;
         public UCEmpHeader ucEmpHeader1;
+        private System.Windows.Forms.FlowLayoutPanel flpCV;
+        private UCApplyForm ucApplyForm1;
+        private System.Windows.Forms.Label lblCVCount;
     }
 }

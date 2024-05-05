@@ -8,6 +8,7 @@ namespace JobApplication
     {
         private Post post;
         private Employer user;
+        private int waiting = 1;
 
         public FFormManagement(Post post, Employer user)
         {
@@ -44,11 +45,20 @@ namespace JobApplication
             {
                 imageListJobImage.Images.Add(ImageUtil.StringToImage(postImage.Image));
             }
-
+            flpCV.Controls.Clear();
+            foreach (ApplyForm cv in post.ApplyForms)
+            {
+                if (cv.Status == "Waiting")
+                {
+                    UCApplyForm applyForm = new UCApplyForm(cv);
+                    flpCV.Controls.Add(applyForm);
+                    waiting++;
+                }
+            }
+            lblCVCount.Text = "There are " + waiting + " apply forms waiting"; 
             // Start the timer to display images
             tmrChangeImage.Start();
-        }
-
+        } 
         private void tmrChangeImage_Tick(object sender, EventArgs e)
         {
             int totalImages = imageListJobImage.Images.Count;
@@ -83,6 +93,12 @@ namespace JobApplication
         {
             // Handle the apply button click event
             this.Hide();
+        }
+
+        private void flpCV_ControlRemoved(object sender, ControlEventArgs e)
+        {
+            waiting--;
+            lblCVCount.Text = "There are " + waiting + " apply forms waiting";
         }
     }
 }

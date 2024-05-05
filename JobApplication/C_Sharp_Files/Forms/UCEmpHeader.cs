@@ -25,5 +25,12 @@ namespace JobApplication
             FCreatePost fCreatePost = new FCreatePost(user);
             fCreatePost.Show();
         }
+
+        private void signOutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ((Form)this.TopLevelControl).Close();
+            FLogin fLogin = new FLogin();
+            fLogin.Show();
+        }
     }
 }

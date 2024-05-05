@@ -103,7 +103,7 @@ namespace JobApplication
                 Fullname = txtFirstNameJS.Text + txtLastNameJS,
                 Portraitimage = ImageUtil.ImageToString(Properties.Resources.user),
                 Address = string.Empty,
-                Birthdate = DateTime.Now,
+                Birthdate = (DateTime)dtpDOB.Value,
             };
             
             foreach(var seeker in listJobSeeker)

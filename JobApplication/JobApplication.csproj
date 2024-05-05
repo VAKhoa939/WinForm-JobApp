@@ -106,6 +106,12 @@
     <Compile Include="C_Sharp_Files\Forms\FAllPosts.Designer.cs">
       <DependentUpon>FAllPosts.cs</DependentUpon>
     </Compile>
+    <Compile Include="C_Sharp_Files\Forms\FCoverLetter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C_Sharp_Files\Forms\FCoverLetter.Designer.cs">
+      <DependentUpon>FCoverLetter.cs</DependentUpon>
+    </Compile>
     <Compile Include="C_Sharp_Files\Forms\FCreatePost.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +196,12 @@
     <Compile Include="C_Sharp_Files\Forms\FApplyForm.Designer.cs">
       <DependentUpon>FApplyForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="C_Sharp_Files\Forms\FCV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C_Sharp_Files\Forms\FCV.Designer.cs">
+      <DependentUpon>FCV.cs</DependentUpon>
+    </Compile>
     <Compile Include="JobSeeker.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -227,8 +239,14 @@
     <EmbeddedResource Include="C_Sharp_Files\Forms\FAllPosts.resx">
       <DependentUpon>FAllPosts.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="C_Sharp_Files\Forms\FCoverLetter.resx">
+      <DependentUpon>FCoverLetter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="C_Sharp_Files\Forms\FCreatePost.resx">
       <DependentUpon>FCreatePost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Sharp_Files\Forms\FCV.resx">
+      <DependentUpon>FCV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="C_Sharp_Files\Forms\FFormManagement.resx">
       <DependentUpon>FFormManagement.cs</DependentUpon>

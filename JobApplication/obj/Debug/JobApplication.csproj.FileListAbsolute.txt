@@ -134,3 +134,45 @@ D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Microso
 D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.Pdf.xml
 D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Asp.xml
 D:\Đại học stuff\New folder\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Forms.xml
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.exe.config
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.exe
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\JobApplication.pdb
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\aa\JobApplication.resources.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\Spire.Pdf.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Asp.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Forms.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\Spire.Pdf.xml
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Asp.xml
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Forms.xml
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FAllPosts.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FCreatePost.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FFormManagement.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FHomePage.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FLogin.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FMyPosts.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FPostDetail.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCApplyForm.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCEmpHeader.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCEmpPost.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSearchBar.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSeekHeader.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.UCSeekPost.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FApplyForm.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.Properties.Resources.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FLogin.aa.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\aa\JobApplication.resources.dll
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobAppli.C07B1578.Up2Date
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.exe
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.pdb
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FCoverLetter.resources
+C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FCV.resources

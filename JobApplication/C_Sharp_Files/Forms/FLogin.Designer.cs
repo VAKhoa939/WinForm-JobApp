@@ -89,6 +89,8 @@ namespace JobApplication
             this.label14 = new System.Windows.Forms.Label();
             this.txtCompanyNameComp = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.dtpDOB = new System.Windows.Forms.DateTimePicker();
             this.tbLogin.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlLogin.SuspendLayout();
@@ -206,6 +208,8 @@ namespace JobApplication
             // 
             // pnlRegister
             // 
+            this.pnlRegister.Controls.Add(this.dtpDOB);
+            this.pnlRegister.Controls.Add(this.label13);
             this.pnlRegister.Controls.Add(this.txtPhoneNumberJS);
             this.pnlRegister.Controls.Add(this.label10);
             this.pnlRegister.Controls.Add(this.txtEmailJS);
@@ -494,6 +498,16 @@ namespace JobApplication
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.Name = "label13";
+            // 
+            // dtpDOB
+            // 
+            resources.ApplyResources(this.dtpDOB, "dtpDOB");
+            this.dtpDOB.Name = "dtpDOB";
+            // 
             // FLogin
             // 
             this.AllowDrop = true;
@@ -585,6 +599,8 @@ namespace JobApplication
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtEmailJS;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.DateTimePicker dtpDOB;
+        private System.Windows.Forms.Label label13;
     }
 }
 
