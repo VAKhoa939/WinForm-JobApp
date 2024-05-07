@@ -110,11 +110,11 @@ namespace JobApplication
         private void btnUpload_Click(object sender, EventArgs e)
         {
             createNewPost();
-            // Redirect to FMyPosts form
+            MessageBox.Show("Created a post successfully.");
+            Hide();
             FMyPosts myPostsForm = new FMyPosts(user);
+            myPostsForm.Closed += (s, args) => Close();
             myPostsForm.Show();
-            // Optionally, close the current form
-            this.Close();
         }
 
         private void createNewPost()
@@ -147,7 +147,7 @@ namespace JobApplication
             post.JobDescs.Add(postDesc1);
             PostDescCatalog postDesc2 = new PostDescCatalog
             {
-                JobDesc = "- In this job you need to work about: " + txtWorkHours.Text
+                JobDesc = "- In this job you need to work about: " + txtWorkHours.Text + " hours"
             };
             post.JobDescs.Add(postDesc2);
             PostDescCatalog postDesc3 = new PostDescCatalog

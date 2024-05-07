@@ -9,6 +9,7 @@ namespace JobApplication
         private Post post;
         private Employer user;
         private int waiting = 1;
+        private int pictureIndex = 0;
 
         public FFormManagement(Post post, Employer user)
         {
@@ -35,6 +36,7 @@ namespace JobApplication
                 Label detail = new Label();
                 detail.Text = postDesc.JobDesc;
                 detail.Size = new Size(930, 50);
+                detail.Font = new Font("Times New Roman", 11);
                 flpJobDesc.Controls.Add(detail);
             }
             // Clear existing images
@@ -65,6 +67,13 @@ namespace JobApplication
 
             if (totalImages >= 3)
             {
+                pbxCompanyAva.Image = imageListJobImage.Images[pictureIndex % totalImages];
+                pbxCompanyAva2.Image = imageListJobImage.Images[(pictureIndex + 1) % totalImages];
+                pbxCompanyAva3.Image = imageListJobImage.Images[(pictureIndex + 2) % totalImages];
+                pictureIndex = (pictureIndex + 1) % totalImages;
+            }
+            else if (totalImages == 3)
+            {
                 pbxCompanyAva.Image = imageListJobImage.Images[0];
                 pbxCompanyAva2.Image = imageListJobImage.Images[1];
                 pbxCompanyAva3.Image = imageListJobImage.Images[2];
@@ -87,12 +96,6 @@ namespace JobApplication
                 pbxCompanyAva2.Image = null;
                 pbxCompanyAva3.Image = null;
             }
-        }
-
-        private void btn_apply_Click(object sender, EventArgs e)
-        {
-            // Handle the apply button click event
-            this.Hide();
         }
 
         private void flpCV_ControlRemoved(object sender, ControlEventArgs e)

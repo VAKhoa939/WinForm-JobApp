@@ -34,11 +34,12 @@ namespace JobApplication
             {
                 foreach(JobSeeker js in listJobSeeker)
                 {
-                    if (js.Username.Equals(txtUserNameLogin.Text) 
-                        && js.Password.Equals(txtPasswordLogin.Text))
+                    if (js.Username == txtUserNameLogin.Text
+                        && js.Password == txtPasswordLogin.Text)
                     {
                         Hide();
                         FAllPosts fAllPosts = new FAllPosts(js);
+                        fAllPosts.Closed += (s, args) => Close();
                         fAllPosts.Show();
                         return;
                     }
@@ -51,8 +52,8 @@ namespace JobApplication
             {
                 foreach (Employer emp in listEmployer)
                 {
-                    if (emp.Username.Equals(txtUserNameLogin.Text) 
-                        && emp.Password.Equals(txtPasswordLogin.Text))
+                    if (emp.Username == txtUserNameLogin.Text
+                        && emp.Password == txtPasswordLogin.Text)
                     {
                         Hide();
                         FMyPosts fMyPosts = new FMyPosts(emp);

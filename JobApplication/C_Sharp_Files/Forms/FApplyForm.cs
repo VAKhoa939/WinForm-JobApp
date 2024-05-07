@@ -50,8 +50,9 @@ namespace JobApplication
             applyFormDAO.Insert(applyForm);
             user.ApplyForms.Add(applyForm);
             MessageBox.Show("Sent CV successfully!");
+            Hide();
             FAllPosts fAllPosts = new FAllPosts(user);
-            Close();
+            fAllPosts.Closed += (s, args) => Close();
             fAllPosts.Show();
         }
 

@@ -97,9 +97,6 @@
     <Compile Include="C_Sharp_Files\DAOs\EmployerDAO.cs" />
     <Compile Include="C_Sharp_Files\DAOs\JobSeekerDAO.cs" />
     <Compile Include="C_Sharp_Files\DAOs\PostDAO.cs" />
-    <Compile Include="C_Sharp_Files\DAOs\PostDescCatalogDAO.cs" />
-    <Compile Include="C_Sharp_Files\DAOs\PostImageCatalogDAO.cs" />
-    <Compile Include="C_Sharp_Files\DAOs\PostTagCatalogDAO.cs" />
     <Compile Include="C_Sharp_Files\Forms\FAllPosts.cs">
       <SubType>Form</SubType>
     </Compile>

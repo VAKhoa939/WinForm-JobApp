@@ -24,8 +24,15 @@ namespace JobApplication
         {
             string newFilePath = "C:/sample/" + fileName;
             byte[] bytes = Convert.FromBase64String(fileContent);
-            FileStream fileStream = new FileStream(newFilePath, FileMode.Create, FileAccess.Write);
-            fileStream.Write(bytes, 0, bytes.Length);
+            try
+            {
+                FileStream fileStream = new FileStream(newFilePath, FileMode.Create, FileAccess.Write);
+                fileStream.Write(bytes, 0, bytes.Length);
+            }
+            catch (IOException)
+            {
+                return newFilePath;
+            }
             return newFilePath;
         }
 

@@ -21,16 +21,26 @@ namespace JobApplication
 
         private void createAPostToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ((Form)this.TopLevelControl).Close();
+            ((Form)this.TopLevelControl).Hide();
             FCreatePost fCreatePost = new FCreatePost(user);
+            fCreatePost.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
             fCreatePost.Show();
         }
 
         private void signOutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            ((Form)this.TopLevelControl).Close();
+            ((Form)this.TopLevelControl).Hide();
             FLogin fLogin = new FLogin();
+            fLogin.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
             fLogin.Show();
+        }
+
+        private void allJobsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ((Form)this.TopLevelControl).Hide();
+            FMyPosts fMyPosts = new FMyPosts(user);
+            fMyPosts.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
+            fMyPosts.Show();
         }
     }
 }

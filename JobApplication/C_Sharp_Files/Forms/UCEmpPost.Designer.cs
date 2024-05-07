@@ -51,7 +51,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.lklblTenBaiDang);
             this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(351, 309);
             this.panel1.TabIndex = 3;
@@ -80,10 +80,11 @@
             // 
             // flpTags
             // 
-            this.flpTags.Location = new System.Drawing.Point(26, 273);
-            this.flpTags.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flpTags.AutoScroll = true;
+            this.flpTags.Location = new System.Drawing.Point(26, 249);
+            this.flpTags.Margin = new System.Windows.Forms.Padding(2);
             this.flpTags.Name = "flpTags";
-            this.flpTags.Size = new System.Drawing.Size(312, 32);
+            this.flpTags.Size = new System.Drawing.Size(312, 56);
             this.flpTags.TabIndex = 4;
             // 
             // lblTienLuong
@@ -102,7 +103,7 @@
             this.panel2.Controls.Add(this.lblTenCongTy);
             this.panel2.Controls.Add(this.imgLogo);
             this.panel2.Location = new System.Drawing.Point(24, 85);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(314, 63);
             this.panel2.TabIndex = 2;
@@ -121,7 +122,7 @@
             // imgLogo
             // 
             this.imgLogo.Location = new System.Drawing.Point(2, 2);
-            this.imgLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.imgLogo.Margin = new System.Windows.Forms.Padding(2);
             this.imgLogo.Name = "imgLogo";
             this.imgLogo.Size = new System.Drawing.Size(52, 57);
             this.imgLogo.TabIndex = 0;
@@ -144,8 +145,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UCEmpPost";
             this.Size = new System.Drawing.Size(355, 325);
             this.panel1.ResumeLayout(false);

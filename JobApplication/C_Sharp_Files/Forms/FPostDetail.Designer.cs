@@ -30,15 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FPostDetail));
-            this.lblNoEmployers = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblEmployerNum = new System.Windows.Forms.Label();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblCompanyName2 = new System.Windows.Forms.Label();
             this.flpJobDesc = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_subscribe = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.lblPostTime = new System.Windows.Forms.Label();
             this.lblPostOther = new System.Windows.Forms.Label();
             this.tmrChangeImage = new System.Windows.Forms.Timer(this.components);
@@ -62,27 +58,16 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblNoEmployers
+            // lblEmployerNum
             // 
-            this.lblNoEmployers.AutoSize = true;
-            this.lblNoEmployers.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoEmployers.Location = new System.Drawing.Point(370, 81);
-            this.lblNoEmployers.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoEmployers.Name = "lblNoEmployers";
-            this.lblNoEmployers.Size = new System.Drawing.Size(23, 21);
-            this.lblNoEmployers.TabIndex = 3;
-            this.lblNoEmployers.Text = "X";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(195, 81);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(182, 21);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "Number of Employees:";
+            this.lblEmployerNum.AutoSize = true;
+            this.lblEmployerNum.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmployerNum.Location = new System.Drawing.Point(194, 102);
+            this.lblEmployerNum.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEmployerNum.Name = "lblEmployerNum";
+            this.lblEmployerNum.Size = new System.Drawing.Size(198, 21);
+            this.lblEmployerNum.TabIndex = 2;
+            this.lblEmployerNum.Text = "Number of Employers: X";
             // 
             // picLogo
             // 
@@ -96,8 +81,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.lblNoEmployers);
-            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.lblEmployerNum);
             this.panel2.Controls.Add(this.lblCompanyName2);
             this.panel2.Controls.Add(this.picLogo);
             this.panel2.Location = new System.Drawing.Point(877, 142);
@@ -119,44 +103,11 @@
             // 
             // flpJobDesc
             // 
-            this.flpJobDesc.Location = new System.Drawing.Point(34, 480);
+            this.flpJobDesc.Location = new System.Drawing.Point(9, 338);
             this.flpJobDesc.Margin = new System.Windows.Forms.Padding(2);
             this.flpJobDesc.Name = "flpJobDesc";
-            this.flpJobDesc.Size = new System.Drawing.Size(698, 229);
+            this.flpJobDesc.Size = new System.Drawing.Size(695, 229);
             this.flpJobDesc.TabIndex = 19;
-            // 
-            // btn_subscribe
-            // 
-            this.btn_subscribe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_subscribe.Location = new System.Drawing.Point(225, 795);
-            this.btn_subscribe.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_subscribe.Name = "btn_subscribe";
-            this.btn_subscribe.Size = new System.Drawing.Size(80, 24);
-            this.btn_subscribe.TabIndex = 18;
-            this.btn_subscribe.Text = "Subscribe";
-            this.btn_subscribe.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(32, 799);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(188, 19);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Get similar jobs by your email";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(32, 748);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(157, 22);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "More jobs for you";
             // 
             // lblPostTime
             // 
@@ -213,7 +164,7 @@
             this.panel3.Controls.Add(this.pbxCompanyAva3);
             this.panel3.Controls.Add(this.pbxCompanyAva2);
             this.panel3.Controls.Add(this.pbxCompanyAva);
-            this.panel3.Location = new System.Drawing.Point(34, 280);
+            this.panel3.Location = new System.Drawing.Point(9, 138);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(695, 196);
@@ -241,10 +192,10 @@
             // btn_apply
             // 
             this.btn_apply.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_apply.Location = new System.Drawing.Point(6, 94);
+            this.btn_apply.Location = new System.Drawing.Point(9, 95);
             this.btn_apply.Margin = new System.Windows.Forms.Padding(2);
             this.btn_apply.Name = "btn_apply";
-            this.btn_apply.Size = new System.Drawing.Size(689, 36);
+            this.btn_apply.Size = new System.Drawing.Size(695, 36);
             this.btn_apply.TabIndex = 4;
             this.btn_apply.Text = "Apply now";
             this.btn_apply.UseVisualStyleBackColor = true;
@@ -254,19 +205,21 @@
             // 
             this.panel1.Controls.Add(this.btn_apply);
             this.panel1.Controls.Add(this.lblPostName);
+            this.panel1.Controls.Add(this.flpJobDesc);
             this.panel1.Controls.Add(this.lblPostSalary);
             this.panel1.Controls.Add(this.lblCompanyName1);
-            this.panel1.Location = new System.Drawing.Point(34, 142);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Location = new System.Drawing.Point(25, 142);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(698, 132);
+            this.panel1.Size = new System.Drawing.Size(717, 587);
             this.panel1.TabIndex = 14;
             // 
             // lblPostName
             // 
             this.lblPostName.AutoSize = true;
             this.lblPostName.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostName.Location = new System.Drawing.Point(2, 0);
+            this.lblPostName.Location = new System.Drawing.Point(7, 9);
             this.lblPostName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPostName.Name = "lblPostName";
             this.lblPostName.Size = new System.Drawing.Size(400, 21);
@@ -277,7 +230,7 @@
             // 
             this.lblPostSalary.AutoSize = true;
             this.lblPostSalary.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostSalary.Location = new System.Drawing.Point(2, 60);
+            this.lblPostSalary.Location = new System.Drawing.Point(7, 59);
             this.lblPostSalary.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPostSalary.Name = "lblPostSalary";
             this.lblPostSalary.Size = new System.Drawing.Size(99, 20);
@@ -288,7 +241,7 @@
             // 
             this.lblCompanyName1.AutoSize = true;
             this.lblCompanyName1.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCompanyName1.Location = new System.Drawing.Point(2, 28);
+            this.lblCompanyName1.Location = new System.Drawing.Point(7, 33);
             this.lblCompanyName1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCompanyName1.Name = "lblCompanyName1";
             this.lblCompanyName1.Size = new System.Drawing.Size(215, 20);
@@ -308,14 +261,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::JobApplication.Properties.Resources.Nitro_Wallpaper_5000x2813;
             this.ClientSize = new System.Drawing.Size(1604, 881);
             this.Controls.Add(this.ucSeekHeader1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.flpJobDesc);
-            this.Controls.Add(this.btn_subscribe);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FPostDetail";
@@ -333,21 +282,15 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblNoEmployers;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblEmployerNum;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblCompanyName2;
         private System.Windows.Forms.FlowLayoutPanel flpJobDesc;
-        private System.Windows.Forms.Button btn_subscribe;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblPostTime;
         private System.Windows.Forms.Label lblPostOther;
         private System.Windows.Forms.Timer tmrChangeImage;

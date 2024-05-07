@@ -176,3 +176,12 @@ C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\De
 C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.pdb
 C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FCoverLetter.resources
 C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\obj\Debug\JobApplication.FCV.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\Spire.Pdf.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Asp.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Forms.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\Microsoft.mshtml.dll
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\Spire.Pdf.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Asp.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\bin\Debug\Spire.PdfViewer.Forms.xml
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\obj\Debug\JobApplication.FCoverLetter.resources
+D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\obj\Debug\JobApplication.FCV.resources

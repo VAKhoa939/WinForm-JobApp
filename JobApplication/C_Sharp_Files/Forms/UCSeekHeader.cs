@@ -23,6 +23,7 @@ namespace JobApplication
         {
             ((Form)this.TopLevelControl).Hide();
             FLogin fLogin = new FLogin();
+            fLogin.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
             fLogin.Show();
         }
 
@@ -30,6 +31,7 @@ namespace JobApplication
         {
             ((Form)this.TopLevelControl).Hide();
             FAllPosts fAllPosts = new FAllPosts(user);
+            fAllPosts.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
             fAllPosts.Show();
         }
     }

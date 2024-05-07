@@ -41,9 +41,10 @@ namespace JobApplication
 
         private void lklblTenBaiDang_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ((Form)this.TopLevelControl).Close();
+            ((Form)this.TopLevelControl).Hide();
             FFormManagement fFormManagement = new FFormManagement(post, user);
-            fFormManagement.ShowDialog();
+            fFormManagement.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
+            fFormManagement.Show();
         }
     }
 }

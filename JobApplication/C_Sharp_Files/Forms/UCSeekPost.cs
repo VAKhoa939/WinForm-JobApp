@@ -44,6 +44,7 @@ namespace JobApplication
         {
             ((Form)this.TopLevelControl).Hide();
             FPostDetail fPostDetail = new FPostDetail(post, user);
+            fPostDetail.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
             fPostDetail.Show();
         }
     }

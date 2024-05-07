@@ -368,6 +368,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackgroundImage = global::JobApplication.Properties.Resources.Nitro_Wallpaper_5000x2813;
             this.ClientSize = new System.Drawing.Size(1604, 881);
             this.Controls.Add(this.ucEmpHeader1);
             this.Controls.Add(this.panel1);

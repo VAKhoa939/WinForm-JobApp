@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Admin\source\repos\Winform-JobApp3\WinForm-JobApp\JobApplication\Model1.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\21110CLA2 - 5\Năm 3 - HK2\Window Programming\Winform_code\GitPull\Winform-JobApp\JobApplication\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

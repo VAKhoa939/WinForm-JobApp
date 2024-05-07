@@ -40,8 +40,8 @@
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.btn_search);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(350, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(920, 37);
             this.panel1.TabIndex = 5;
@@ -56,7 +56,7 @@
             "Da Nang",
             "Others"});
             this.comboBox1.Location = new System.Drawing.Point(93, 5);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(153, 21);
             this.comboBox1.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             this.btn_search.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_search.Location = new System.Drawing.Point(768, 0);
-            this.btn_search.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_search.Margin = new System.Windows.Forms.Padding(2);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(68, 26);
             this.btn_search.TabIndex = 3;
@@ -75,7 +75,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(344, 6);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(358, 20);
             this.textBox1.TabIndex = 2;
@@ -85,9 +85,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UCSearchBar";
-            this.Size = new System.Drawing.Size(1620, 49);
+            this.Size = new System.Drawing.Size(925, 42);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
