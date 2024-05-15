@@ -94,7 +94,6 @@
             // 
             // flpTags
             // 
-            this.flpTags.AutoScroll = true;
             this.flpTags.Location = new System.Drawing.Point(26, 246);
             this.flpTags.Margin = new System.Windows.Forms.Padding(2);
             this.flpTags.Name = "flpTags";

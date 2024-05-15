@@ -22,6 +22,7 @@ namespace JobApplication
             InitializeComponent();
             this.user = user;
             this.post = post;
+            ucSeekHeader1.user = user;
         }
 
         private void FApplyForm_Load(object sender, EventArgs e)

@@ -162,6 +162,7 @@
             this.myJobsToolStripMenuItem1.Name = "myJobsToolStripMenuItem1";
             this.myJobsToolStripMenuItem1.Size = new System.Drawing.Size(222, 36);
             this.myJobsToolStripMenuItem1.Text = "My Jobs";
+            this.myJobsToolStripMenuItem1.Click += new System.EventHandler(this.myJobsToolStripMenuItem1_Click);
             // 
             // settingsToolStripMenuItem1
             // 

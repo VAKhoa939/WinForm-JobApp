@@ -46,7 +46,7 @@
             this.lblCompanyname = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.flpCV = new System.Windows.Forms.FlowLayoutPanel();
-            this.ucApplyForm1 = new JobApplication.UCApplyForm();
+            this.ucApplyForm1 = new JobApplication.UCEmpApplyForm();
             this.ucEmpHeader1 = new JobApplication.UCEmpHeader();
             this.lblCVCount = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -63,7 +63,7 @@
             // 
             this.flpJobDesc.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.flpJobDesc.Location = new System.Drawing.Point(34, 489);
-            this.flpJobDesc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flpJobDesc.Margin = new System.Windows.Forms.Padding(2);
             this.flpJobDesc.Name = "flpJobDesc";
             this.flpJobDesc.Size = new System.Drawing.Size(698, 229);
             this.flpJobDesc.TabIndex = 18;
@@ -93,30 +93,30 @@
             // lblPostTime
             // 
             this.lblPostTime.AutoSize = true;
-            this.lblPostTime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPostTime.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPostTime.Location = new System.Drawing.Point(3, 154);
             this.lblPostTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPostTime.Name = "lblPostTime";
-            this.lblPostTime.Size = new System.Drawing.Size(126, 19);
+            this.lblPostTime.Size = new System.Drawing.Size(155, 21);
             this.lblPostTime.TabIndex = 5;
             this.lblPostTime.Text = "Posted 8 hours ago";
             // 
             // lblPostOther
             // 
             this.lblPostOther.AutoSize = true;
-            this.lblPostOther.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPostOther.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPostOther.Location = new System.Drawing.Point(3, 101);
             this.lblPostOther.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPostOther.Name = "lblPostOther";
-            this.lblPostOther.Size = new System.Drawing.Size(587, 38);
+            this.lblPostOther.Size = new System.Drawing.Size(674, 42);
             this.lblPostOther.TabIndex = 3;
-            this.lblPostOther.Text = "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho " +
-    "Chi Minh\r\nHybrid\r\n";
+            this.lblPostOther.Text = "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Da Kao Ward, District 1, HCM" +
+    "C\r\nHybrid\r\n";
             // 
             // pbxCompanyAva3
             // 
             this.pbxCompanyAva3.Location = new System.Drawing.Point(465, 2);
-            this.pbxCompanyAva3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbxCompanyAva3.Margin = new System.Windows.Forms.Padding(2);
             this.pbxCompanyAva3.Name = "pbxCompanyAva3";
             this.pbxCompanyAva3.Size = new System.Drawing.Size(225, 81);
             this.pbxCompanyAva3.TabIndex = 2;
@@ -125,7 +125,7 @@
             // pbxCompanyAva2
             // 
             this.pbxCompanyAva2.Location = new System.Drawing.Point(236, 2);
-            this.pbxCompanyAva2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbxCompanyAva2.Margin = new System.Windows.Forms.Padding(2);
             this.pbxCompanyAva2.Name = "pbxCompanyAva2";
             this.pbxCompanyAva2.Size = new System.Drawing.Size(225, 81);
             this.pbxCompanyAva2.TabIndex = 1;
@@ -139,7 +139,7 @@
             this.panel3.Controls.Add(this.pbxCompanyAva2);
             this.panel3.Controls.Add(this.pbxCompanyAva);
             this.panel3.Location = new System.Drawing.Point(34, 288);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(698, 180);
             this.panel3.TabIndex = 14;
@@ -148,7 +148,7 @@
             // 
             this.pbxCompanyAva.InitialImage = ((System.Drawing.Image)(resources.GetObject("pbxCompanyAva.InitialImage")));
             this.pbxCompanyAva.Location = new System.Drawing.Point(6, 2);
-            this.pbxCompanyAva.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbxCompanyAva.Margin = new System.Windows.Forms.Padding(2);
             this.pbxCompanyAva.Name = "pbxCompanyAva";
             this.pbxCompanyAva.Size = new System.Drawing.Size(225, 81);
             this.pbxCompanyAva.TabIndex = 0;
@@ -160,7 +160,7 @@
             this.panel1.Controls.Add(this.lblPostSalary);
             this.panel1.Controls.Add(this.lblCompanyname);
             this.panel1.Location = new System.Drawing.Point(24, 144);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(723, 593);
             this.panel1.TabIndex = 13;
@@ -214,7 +214,7 @@
             this.flpCV.AutoScroll = true;
             this.flpCV.Controls.Add(this.ucApplyForm1);
             this.flpCV.Location = new System.Drawing.Point(44, 107);
-            this.flpCV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flpCV.Margin = new System.Windows.Forms.Padding(2);
             this.flpCV.Name = "flpCV";
             this.flpCV.Size = new System.Drawing.Size(414, 467);
             this.flpCV.TabIndex = 29;
@@ -224,7 +224,7 @@
             // 
             this.ucApplyForm1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ucApplyForm1.Location = new System.Drawing.Point(2, 2);
-            this.ucApplyForm1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ucApplyForm1.Margin = new System.Windows.Forms.Padding(2);
             this.ucApplyForm1.Name = "ucApplyForm1";
             this.ucApplyForm1.Size = new System.Drawing.Size(392, 326);
             this.ucApplyForm1.TabIndex = 0;
@@ -234,7 +234,7 @@
             this.ucEmpHeader1.BackColor = System.Drawing.Color.Coral;
             this.ucEmpHeader1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ucEmpHeader1.Location = new System.Drawing.Point(0, 0);
-            this.ucEmpHeader1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ucEmpHeader1.Margin = new System.Windows.Forms.Padding(2);
             this.ucEmpHeader1.Name = "ucEmpHeader1";
             this.ucEmpHeader1.Size = new System.Drawing.Size(1620, 98);
             this.ucEmpHeader1.TabIndex = 28;
@@ -272,7 +272,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FFormManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FFormManagement";
@@ -310,7 +310,7 @@
         private System.Windows.Forms.Label label7;
         public UCEmpHeader ucEmpHeader1;
         private System.Windows.Forms.FlowLayoutPanel flpCV;
-        private UCApplyForm ucApplyForm1;
+        private UCEmpApplyForm ucApplyForm1;
         private System.Windows.Forms.Label lblCVCount;
         private System.Windows.Forms.Panel panel2;
     }

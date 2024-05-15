@@ -41,7 +41,7 @@ namespace JobApplication
                 Label detail = new Label();
                 detail.Text = postDesc.JobDesc;
                 detail.Size = new Size(930, 50);
-                detail.Font = new Font("Times New Roman", 11);
+                detail.Font = new Font("Times New Roman", 14);
                 flpJobDesc.Controls.Add(detail);
             }
             // Clear existing images

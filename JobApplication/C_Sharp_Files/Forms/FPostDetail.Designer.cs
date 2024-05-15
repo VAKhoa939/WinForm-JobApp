@@ -103,34 +103,34 @@
             // 
             // flpJobDesc
             // 
-            this.flpJobDesc.Location = new System.Drawing.Point(9, 338);
+            this.flpJobDesc.Location = new System.Drawing.Point(9, 361);
             this.flpJobDesc.Margin = new System.Windows.Forms.Padding(2);
             this.flpJobDesc.Name = "flpJobDesc";
-            this.flpJobDesc.Size = new System.Drawing.Size(695, 229);
+            this.flpJobDesc.Size = new System.Drawing.Size(695, 206);
             this.flpJobDesc.TabIndex = 19;
             // 
             // lblPostTime
             // 
             this.lblPostTime.AutoSize = true;
-            this.lblPostTime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostTime.Location = new System.Drawing.Point(3, 162);
+            this.lblPostTime.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPostTime.Location = new System.Drawing.Point(3, 178);
             this.lblPostTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPostTime.Name = "lblPostTime";
-            this.lblPostTime.Size = new System.Drawing.Size(126, 19);
+            this.lblPostTime.Size = new System.Drawing.Size(155, 21);
             this.lblPostTime.TabIndex = 5;
             this.lblPostTime.Text = "Posted 8 hours ago";
             // 
             // lblPostOther
             // 
             this.lblPostOther.AutoSize = true;
-            this.lblPostOther.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPostOther.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPostOther.Location = new System.Drawing.Point(3, 101);
             this.lblPostOther.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPostOther.Name = "lblPostOther";
-            this.lblPostOther.Size = new System.Drawing.Size(587, 57);
+            this.lblPostOther.Size = new System.Drawing.Size(674, 63);
             this.lblPostOther.TabIndex = 3;
-            this.lblPostOther.Text = "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho " +
-    "Chi Minh\r\n\r\nHybrid";
+            this.lblPostOther.Text = "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Da Kao Ward, District 1, HCM" +
+    "C\r\n\r\nHybrid";
             // 
             // tmrChangeImage
             // 
@@ -167,7 +167,7 @@
             this.panel3.Location = new System.Drawing.Point(9, 138);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(695, 196);
+            this.panel3.Size = new System.Drawing.Size(695, 209);
             this.panel3.TabIndex = 15;
             // 
             // pbxCompanyAva2

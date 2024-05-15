@@ -34,5 +34,13 @@ namespace JobApplication
             fAllPosts.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
             fAllPosts.Show();
         }
+
+        private void myJobsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ((Form)this.TopLevelControl).Hide();
+            FMyJobs fMyJobs = new FMyJobs(user);
+            fMyJobs.Closed += (s, args) => ((Form)this.TopLevelControl).Close();
+            fMyJobs.Show();
+        }
     }
 }

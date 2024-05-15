@@ -33,7 +33,7 @@ namespace JobApplication
             {
                 Button btnTag = new Button();
                 btnTag.Text = postTag.Tag;
-                btnTag.Size = new Size(100, 32);
+                btnTag.Size = new Size(80, 32);
                 btnTag.Font = new Font("Times New Roman", 11);
                 flpTags.Controls.Add(btnTag);
             }
